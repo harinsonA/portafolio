@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={fotoHarinson} alt="logo" />
         <p>
-          Amor mio comence con el proyecto, este proyecto se va ir actualizando
+          Viendo algun diseño el cual poder replicar
         </p>
       </header>
     </div>
