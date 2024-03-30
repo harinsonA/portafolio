@@ -1,0 +1,15 @@
+.curriculum-aside {
+  width: 100%;
+  max-width: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.curriculum-aside .card {
+  border: 1px dotted green;
+  width: calc(100% - 10%);
+  min-width: 250px;
+}
