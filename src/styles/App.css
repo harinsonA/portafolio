@@ -9,3 +9,9 @@
   padding: 10px;
   background-color: #FFF;
 }
+
+@media screen and (max-width: 900px) {
+  .App {
+    flex-direction: column;
+  }
+}
