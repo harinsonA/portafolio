@@ -8,7 +8,6 @@ class Curriculum extends React.Component {
   render() {
     return (
       <section className="curriculum-container">
-        <span>Soy el Curriculum</span>
       </section>        
     );
   }

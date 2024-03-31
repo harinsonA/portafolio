@@ -5,11 +5,76 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 
 .curriculum-aside .card {
-  border: 1px dotted green;
   width: calc(100% - 10%);
   min-width: 250px;
+  padding: 6px;
+  border-radius: 15px;
+}
+
+.curriculum-aside .card .header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 35px;
+}
+
+.curriculum-aside .card .header .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #66cc99;
+  border-radius: 50%;
+}
+
+.curriculum-aside .card .header .image img {
+  border-radius: 50%;
+  max-width: 180px;
+}
+
+.curriculum-aside .card .header .title h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.curriculum-aside .card .header .title p {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.curriculum-aside .card .body {
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.4em;
+  line-height: 22px;
+}
+
+.curriculum-aside .card .body .contact-info {
+  margin-bottom: 20px;
+}
+
+.curriculum-aside .card .body .contact-info ul {
+  width: 100%;
+}
+
+.curriculum-aside .card .body .contact-info ul li {
+  margin: 5px 0px;
+
+  display: flex;
+  align-items: center;
+}
+
+.curriculum-aside .card .body .contact-info ul li span {
+  padding-top: 1px;
+  margin-left: 5px;
+}
+
+.curriculum-aside .card .body .resumen p {
+  text-align: justify;
 }

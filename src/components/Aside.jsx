@@ -1,5 +1,8 @@
 import '../styles/Aside.css';
-import harinsonArellanFoto from '../images/foto_harinson.png'
+import harinsonArellanFoto from '../images/foto-harinson.png'
+import { MdOutlineEmail } from "react-icons/md";
+import { IoLocationOutline, IoLogoLinkedin } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
 
 
 const Aside = () => (
@@ -7,7 +10,7 @@ const Aside = () => (
     <section className='card'>
       <div className='header'>
         <div className='image'>
-          <img width="200" src={harinsonArellanFoto} alt="Foto de Harinson" />
+          <img src={harinsonArellanFoto} alt="Foto de Harinson" />
         </div>
         <div className='title'>
           <h1>Harinson José Arellan Itanare</h1>
@@ -17,10 +20,22 @@ const Aside = () => (
       <div className='body'>
         <div className='contact-info'>
           <ul>
-            <li>Santiago de Chile, Chile</li>
-            <li>harrinson.arellan@correo.com</li>
-            <li>+56 9 9999 9999</li>
-            <li>Linkedin</li>
+            <li>
+              <IoLocationOutline  size='1.8rem' />
+              <span>Santiago de Chile, Chile</span>
+            </li>
+            <li>
+              <MdOutlineEmail size='1.7rem' />
+              <span>harrinson.arellan@correo.com</span>
+            </li>
+            <li>
+              <FaPhoneAlt size='1.5rem' />
+              <span>+56 9 9999 9999</span>
+            </li>
+            <li>
+              <IoLogoLinkedin size='1.7rem' />
+              <span>harinsonarellanitanare</span>
+            </li>
           </ul>
         </div>
         <div className='resumen'>
