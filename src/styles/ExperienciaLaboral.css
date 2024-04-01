@@ -1,0 +1,11 @@
+.experience-container {
+  width: 100%;
+  padding: 40px 30px;
+}
+
+.experience-container h2 {
+  color: #66cc99;
+  font-size: 2em;
+  font-weight: 600;
+  font-style: italic;
+}

@@ -3,3 +3,9 @@
   background-color: #3d3e42;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 900px) {
+  .curriculum-container {
+    margin-top: 40px;
+  }
+}

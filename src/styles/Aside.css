@@ -78,3 +78,19 @@
 .curriculum-aside .card .body .resumen p {
   text-align: justify;
 }
+
+@media screen and (max-width: 900px) {
+  .curriculum-aside {
+    max-width: none;
+  }
+
+  .curriculum-aside .card {
+    width: 100%;
+  }
+
+  .curriculum-aside .card .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
