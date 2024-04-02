@@ -8,4 +8,57 @@
   font-size: 2em;
   font-weight: 600;
   font-style: italic;
+  margin-bottom: 30px;
+}
+
+.experience-container .card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: justify;
+  color: #9099a0;
+}
+
+.experience-container .card .company {
+  width: 30%;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.experience-container .card .range {
+  width: 70%;
+  min-width: 200px;
+}
+
+.experience-container .card .company .company-name,
+.experience-container .card .range .title {
+  color: #FFF;
+  margin-bottom: 15px;
+}
+
+.experience-container .card .range .description ul {
+  padding: 0 0 0 20px;
+}
+
+.experience-container .card .range .description ul li {
+  margin-bottom: 8px;
+  list-style: url('../images/code-solid.svg');
+  list-style-position: outside;
+}
+
+@media screen and (max-width: 700px) {
+  .experience-container .card {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .experience-container .card .company,
+  .experience-container .card .range {
+    width: 100%;
+    max-width: none;
+  }
 }

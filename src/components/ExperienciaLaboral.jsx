@@ -17,10 +17,10 @@ class ExperienciaLaboral extends React.Component {
             </div>
           </section>
           <section className='range'>
-            <div className='Title'>
+            <div className='title'>
               Desarrollador BackEnd Junior
             </div>
-            <div className='Description'>
+            <div className='description'>
               <ul>
                 <li>Implementar nuevas vistas y funcionalidades.</li>
                 <li>Realizar corrección de errores y solucionar problemas técnicos.</li>

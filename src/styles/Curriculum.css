@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #3d3e42;
   border-radius: 5px;
+  letter-spacing: 0.1em;
 }
 
 @media screen and (max-width: 900px) {
