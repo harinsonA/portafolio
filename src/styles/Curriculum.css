@@ -3,6 +3,21 @@
   background-color: #3d3e42;
   border-radius: 5px;
   letter-spacing: 0.1em;
+  padding: 40px 30px;
+}
+
+.curriculum-container:not(h2) {
+  font-size: 1.4em;
+  font-weight: 300;
+  text-align: justify;
+  color: #9099a0;
+}
+
+.curriculum-container h2 {
+  color: #66cc99;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 900px) {
