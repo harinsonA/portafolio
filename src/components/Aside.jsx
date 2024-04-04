@@ -40,7 +40,7 @@ const Aside = () => (
         </div>
         <div className='resumen'>
           <p>
-            ¡Hola! Me llamo Harinson Arellan, soy Ingeniero de Sistemas con más de 3 años de experiencia desarrollando aplicaciones web como Full Stack ocupando HTML, CSS, SASS, Bootstrap, Python, JavaScript, ReactJS, Django, REST APIs, SQL. Poseo sólidos conocimientos en Responsive Web Design, habilidades destacadas en resolución de problemas, depuración y optimización de código. Siempre motivado a seguir creciendo y a expandir mis conocimientos.
+            ¡Hola! Me llamo Harinson Arellan, soy Ingeniero de Sistemas con más de 3 años de experiencia desarrollando aplicaciones web como FullStack ocupando HTML, CSS, SASS, Bootstrap, Python, JavaScript, ReactJS, Django, REST APIs, SQL. Poseo sólidos conocimientos en Responsive Web Design, habilidades destacadas en resolución de problemas, depuración y optimización de código. Siempre motivado a seguir creciendo y a expandir mis conocimientos.
           </p>
         </div>
       </div>
