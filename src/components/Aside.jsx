@@ -45,6 +45,9 @@ const Aside = () => (
         </div>
       </div>
     </section>
+    <section className='card'>
+      <h2>Habilidades</h2>
+    </section>
   </section>
 );
 

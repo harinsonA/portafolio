@@ -3,7 +3,9 @@
   max-width: 600px;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: center;
 }
 
 .curriculum-aside .card {

@@ -7,7 +7,7 @@ const Educacion = () => (
     <section className='card'>
       <section className='certificate'>
         <div className='title'>
-          <span>FullStack</span>
+          <span>Desarrollador FullStack</span>
         </div>
         <div className='time'>
           <span>2020 Santiago de Chile, Chile</span>
