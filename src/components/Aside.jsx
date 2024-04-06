@@ -3,6 +3,7 @@ import harinsonArellanFoto from '../images/foto-harinson.png'
 import { MdOutlineEmail } from "react-icons/md";
 import { IoLocationOutline, IoLogoLinkedin } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
+import Habilidades from './Habilidades';
 
 
 const Aside = () => (
@@ -45,9 +46,7 @@ const Aside = () => (
         </div>
       </div>
     </section>
-    <section className='card'>
-      <h2>Habilidades</h2>
-    </section>
+    <Habilidades />
   </section>
 );
 
