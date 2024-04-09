@@ -1,9 +1,10 @@
 import '../styles/Aside.css';
-import harinsonArellanFoto from '../images/foto-harinson.png'
+import harinsonArellanFoto from '../images/foto-harinson.png';
 import { MdOutlineEmail } from "react-icons/md";
-import { IoLocationOutline, IoLogoLinkedin } from "react-icons/io5";
+import { IoLocationOutline } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import Habilidades from './Habilidades';
+import Redes from './Redes';
 
 
 const Aside = () => (
@@ -27,18 +28,15 @@ const Aside = () => (
             </li>
             <li>
               <MdOutlineEmail size='1.7rem' />
-              <span>harrinson.arellan@correo.com</span>
+              <span>harrinson.arellan@gmail.com</span>
             </li>
             <li>
               <FaPhoneAlt size='1.5rem' />
-              <span>+56 9 9999 9999</span>
-            </li>
-            <li>
-              <IoLogoLinkedin size='1.7rem' />
-              <span>harinsonarellanitanare</span>
+              <span>+56 9 4941 6912</span>
             </li>
           </ul>
         </div>
+        <Redes />
         <div className='resumen'>
           <p>
             ¡Hola! Me llamo Harinson Arellan, soy Ingeniero de Sistemas con más de 3 años de experiencia desarrollando aplicaciones web como FullStack ocupando HTML, CSS, SASS, Bootstrap, Python, JavaScript, ReactJS, Django, REST APIs, SQL. Poseo sólidos conocimientos en Responsive Web Design, habilidades destacadas en resolución de problemas, depuración y optimización de código. Siempre motivado a seguir creciendo y a expandir mis conocimientos.

@@ -1,0 +1,23 @@
+.networks-container {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.networks-container ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.networks-container ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+}
+
+.networks-container ul li:not( .networks-container ul li:last-child ) {
+  margin-right: 15px;
+}
