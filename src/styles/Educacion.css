@@ -11,28 +11,28 @@
   margin: 20px 0px;
 }
 
-.education-container .card .certificate {
+.education-container .card .header {
   width: 30%;
   min-width: 200px;
   max-width: 300px;
 }
 
-.education-container .card .academy {
+.education-container .card .body {
   width: 70%;
   min-width: 200px;
 }
 
-.education-container .card .certificate .title,
-.education-container .card .academy .academy-name {
+.education-container .card .header .title,
+.education-container .card .body .title {
   color: #FFF;
   margin-bottom: 15px;
 }
 
-.education-container .card .academy .info ul {
+.education-container .card .body ul {
   padding: 0 0 0 30px;
 }
 
-.education-container .card .academy .info ul li {
+.education-container .card .body ul li {
   margin-bottom: 8px;
   list-style: url('../images/code-solid.svg');
   list-style-position: outside;
@@ -44,8 +44,8 @@
     justify-content: flex-start;
   }
 
-  .education-container .card .certificate,
-  .education-container .card .academy {
+  .education-container .card .header,
+  .education-container .card .body {
     width: 100%;
     max-width: none;
   }

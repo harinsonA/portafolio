@@ -12,7 +12,7 @@ const Habilidades = () => (
       <li><FaBitbucket size={'50px'} color='#2684FF' /></li>
       <li><FaPython size={'50px'} color='#4584b6' /></li>
       <li><SiJavascript size={'50px'} color='#EFD81D' /></li>
-      <li><SiReact size={'50px'} color='#149ECA' /></li>
+      <li className='animacion-rotar'><SiReact size={'50px'} color='#149ECA' /></li>
       <li><SiDjango size={'50px'} color='#092e20' /></li>
       <li><SiMysql size={'50px'} color='#00758f' /></li>
       <li><SiPostman size={'50px'} color='#ef5b25' /></li>

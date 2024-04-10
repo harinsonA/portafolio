@@ -11,28 +11,28 @@
   margin: 20px 0px;
 }
 
-.experience-container .card .company {
+.experience-container .card .header {
   width: 30%;
   min-width: 200px;
   max-width: 300px;
 }
 
-.experience-container .card .range {
+.experience-container .card .body {
   width: 70%;
   min-width: 200px;
 }
 
-.experience-container .card .company .company-name,
-.experience-container .card .range .title {
+.experience-container .card .header .title,
+.experience-container .card .body .title {
   color: #FFF;
   margin-bottom: 15px;
 }
 
-.experience-container .card .range .description ul {
+.experience-container .card .body ul {
   padding: 0 0 0 30px;
 }
 
-.experience-container .card .range .description ul li {
+.experience-container .card .body ul li {
   margin-bottom: 8px;
   list-style: url('../images/code-solid.svg');
   list-style-position: outside;
@@ -44,8 +44,8 @@
     justify-content: flex-start;
   }
 
-  .experience-container .card .company,
-  .experience-container .card .range {
+  .experience-container .card .header,
+  .experience-container .card .body {
     width: 100%;
     max-width: none;
   }

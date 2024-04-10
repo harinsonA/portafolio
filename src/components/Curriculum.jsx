@@ -1,7 +1,7 @@
 import '../styles/Curriculum.css';
 import React from "react";
-import ExperienciaLaboral from './ExperienciaLaboral';
-import Educacion from './Educacion';
+import ExperienciaLaboral from './organismos/ExperienciaLaboral';
+import Educacion from './organismos/Educacion';
 import Certificates from './Certificates';
 
 class Curriculum extends React.Component {
