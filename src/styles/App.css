@@ -7,7 +7,13 @@
   justify-content: center;
 
   padding: 10px;
-  background-color: #FFFFFF;
+  background-color: #eef2f3;
+  /* background-image: linear-gradient(160deg,  #eef2f3 40%, #8e9eab 60%); */
+  background-image: linear-gradient(340deg,  #8e9eab 32%,  #eef2f3 68%);
+}
+
+.ml-1 {
+  margin-left: 8px;
 }
 
 @media screen and (max-width: 900px) {

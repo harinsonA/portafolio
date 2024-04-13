@@ -30,7 +30,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #66cc99;
+  background-color: #000;
+  background-image: url('../images/bg-light.png');
   border-radius: 50%;
 }
 

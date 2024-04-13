@@ -1,74 +1,11 @@
 .curriculum-container {
   width: 100%;
-  background-color: #3d3e42;
   border-radius: 5px;
   letter-spacing: 0.1em;
   padding: 40px 30px;
-  background-color: #000;
+  background-color: #181719;
   background-image: linear-gradient(0deg, #3a3d40 0%, #181719 100%);
 }
-
-/* .animacion-background {
-  -webkit-animation: animateBackground 10s infinite ease;
-  animation: animateBackground 10s infinite ease;
-}
-
-@keyframes animateBackground {
-  0% {
-    background-image: linear-gradient(290deg, #3a3d40 0%, #181719 100%); 
-  }
-  5% {
-    background-image: linear-gradient(290deg, #3a3d40 5%, #181719 95%); 
-  }
-  10% {
-    background-image: linear-gradient(290deg, #3a3d40 10%, #181719 90%); 
-  }
-  15% {
-    background-image: linear-gradient(290deg, #3a3d40 15%, #181719 85%); 
-  }
-  20% {
-    background-image: linear-gradient(290deg, #3a3d40 20%, #181719 80%); 
-  }
-  25% {
-    background-image: linear-gradient(290deg, #3a3d40 25%, #181719 75%); 
-  }
-  30% {
-    background-image: linear-gradient(290deg, #3a3d40 30%, #181719 70%); 
-  }
-  35% {
-    background-image: linear-gradient(290deg, #3a3d40 35%, #181719 65%); 
-  }
-  40% {
-    background-image: linear-gradient(290deg, #3a3d40 40%, #181719 60%); 
-  }
-  45% {
-    background-image: linear-gradient(290deg, #3a3d40 45%, #181719 55%); 
-  }
-  50% {
-    background-image: linear-gradient(290deg, #3a3d40 45%, #181719 55%); 
-  }
-  55% {
-    background-image: linear-gradient(290deg, #3a3d40 40%, #181719 60%); 
-  }
-  60% {
-    background-image: linear-gradient(290deg, #3a3d40 35%, #181719 65%); 
-  }
-  65% {
-    background-image: linear-gradient(290deg, #3a3d40 30%, #181719 70%); 
-  }
-  70% {
-    background-image: linear-gradient(290deg, #3a3d40 25%, #181719 75%); 
-  }
-  85% {
-    background-image: linear-gradient(290deg, #3a3d40 15%, #181719 75%); 
-  }
-  90% {
-    background-image: linear-gradient(290deg, #3a3d40 10%, #181719 90%); 
-  }
-  100% {
-    background-image: linear-gradient(290deg, #3a3d40 0%, #181719 100%);
-  }
-} */
 
 .curriculum-container:not(h2) {
   font-size: 1.4em;

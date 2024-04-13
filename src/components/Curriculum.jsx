@@ -7,7 +7,7 @@ import Certificates from './Certificates';
 class Curriculum extends React.Component {
   render() {
     return (
-      <section className="curriculum-container animacion-background">
+      <section className="curriculum-container">
         <Educacion />
         <ExperienciaLaboral />
         <Certificates />
