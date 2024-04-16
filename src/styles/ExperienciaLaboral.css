@@ -36,6 +36,7 @@
   margin-bottom: 8px;
   list-style: url('../images/code-solid.svg');
   list-style-position: outside;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 700px) {

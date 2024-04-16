@@ -1,5 +1,5 @@
 import '../styles/Aside.css';
-import harinsonArellanFoto from '../images/foto-harinson.png';
+import harinsonArellanFoto from '../images/Harinson.png';
 import { MdOutlineEmail, MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import Habilidades from './Habilidades';
@@ -15,7 +15,7 @@ const Aside = () => (
         </div>
         <div className='title'>
           <h1>Harinson José Arellan Itanare</h1>
-          <p>Ingeniero de Sistemas / Desarrollador FullStack</p>
+          <p>Ingeniero de Sistemas / Desarrollador Frontend</p>
         </div>
       </div>
       <div className='body'>
@@ -38,7 +38,7 @@ const Aside = () => (
         <Redes />
         <div className='resumen'>
           <p>
-            ¡Hola! Me llamo Harinson Arellan, soy Ingeniero de Sistemas con más de 4 años de experiencia desarrollando aplicaciones web como FullStack ocupando HTML, CSS, SASS, Bootstrap, Python, JavaScript, React, Django, REST APIs, SQL, entre otras. Poseo sólidos conocimientos en Responsive Web Design, habilidades destacadas en resolución de problemas, depuración y optimización de código. Siempre motivado a seguir creciendo y a expandir mis conocimientos.
+            ¡Hola! Me llamo Harinson Arellan, soy Ingeniero de Sistemas con más de 4 años de experiencia desarrollando aplicaciones web ocupando diferentes tecnologias como HTML, CSS, SASS, Bootstrap, JavaScript, React, Nextjs, Redux, Python, Django, REST APIs, SQL, entre otros. Poseo sólidos conocimientos en Responsive Web Design, habilidades destacadas en resolución de problemas, depuración y optimización de código. Siempre motivado a seguir creciendo y a expandir mis conocimientos.
           </p>
         </div>
       </div>

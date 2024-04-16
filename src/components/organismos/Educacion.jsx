@@ -1,5 +1,5 @@
 import '../../styles/Educacion.css';
-import { EDUCACION } from '../../storage/static_data';
+import { EDUCACION } from '../../store/static_data';
 import Card from '../moleculas/Card.jsx';
 
 
