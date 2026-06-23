@@ -7,7 +7,7 @@ const Educacion = () => (
   <section className="education-container">
     <h2>EDUCACIÓN</h2>
     {
-      EDUCACION.map(educacion => <Card {...educacion} />)
+      EDUCACION.map(educacion => <Card key={educacion.key} {...educacion} />)
     }
   </section>
 );
