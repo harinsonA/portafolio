@@ -1,6 +1,6 @@
 import '../styles/Redes.css';
-import { SiInstagram, SiLinkedin } from "react-icons/si";
-import { FaXTwitter } from "react-icons/fa6";
+import { SiInstagram } from "react-icons/si";
+import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
 
 
 const Redes = () => (
@@ -18,7 +18,7 @@ const Redes = () => (
       </li>
       <li>
         <a href="https://www.linkedin.com/in/harinsonarellanitanare/" target="_blank" rel="noopener noreferrer">
-          <SiLinkedin size={'20px'} color='#004182' />
+          <FaLinkedin size={'20px'} color='#004182' />
         </a>
       </li>
     </ul>

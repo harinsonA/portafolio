@@ -2,15 +2,16 @@ import '../styles/Habilidades.css';
 import { FaSass, FaBootstrap, FaPython, FaGithub, FaBitbucket, FaNode } from "react-icons/fa";
 import {
   SiJavascript, SiReact, SiDjango, SiMysql, SiPostman,
-  SiDocker, SiHtml5, SiCss3, SiPug, SiVisualstudio, SiJirasoftware,
+  SiDocker, SiHtml5, SiCss, SiPug, SiJirasoftware,
   SiTypescript, SiLinux, SiNextdotjs, SiRedux
 } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 
 const Habilidades = () => (
   <section className="card skills-container">
     <ul>
       <li><SiHtml5 size={'50px'} color='#e34f26' /></li>
-      <li><SiCss3 size={'50px'} color='#2D53E5' /></li>
+      <li><SiCss size={'50px'} color='#2D53E5' /></li>
       <li><FaSass size={'50px'} color='#CF649A' /></li>
       <li><FaBootstrap size={'50px'} color='#7952B3' /></li>
       <li><FaBitbucket size={'50px'} color='#2684FF' /></li>
@@ -28,7 +29,7 @@ const Habilidades = () => (
       <li><SiPug size={'50px'} color='#A86454' /></li>
       <li><FaNode size={'50px'} color='#215732' /></li>
       <li><SiNextdotjs size={'50px'} color='#000000' /></li>
-      <li><SiVisualstudio size={'50px'} color='#21A5F0' /></li>
+      <li><VscVscode size={'50px'} color='#21A5F0' /></li>
       <li><SiLinux size={'50px'} color='#000000' /></li>
     </ul>
   </section>
