@@ -10,7 +10,7 @@ class ExperienciaLaboral extends React.Component {
       <section className="experience-container">
         <h2>EXPERIENCIA PROFESIONAL</h2>
         {
-          EXPERIENCIA_LABORAL.map(experiencia => <Card {...experiencia} />)
+          EXPERIENCIA_LABORAL.map(experiencia => <Card key={experiencia.key} {...experiencia} />)
         }
       </section>
     )
