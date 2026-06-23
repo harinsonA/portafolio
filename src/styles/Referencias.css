@@ -1,0 +1,45 @@
+.references-container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.references-container .card {
+  width: 100%;
+}
+
+.references-container .card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+}
+
+.references-container .card ul li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.references-container .reference-name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.references-container .reference-name {
+  color: #FFF;
+}
+
+.references-container .reference-role {
+  font-size: 0.85em;
+}
+
+.references-container .card ul li a {
+  display: inline-flex;
+  align-items: center;
+  transition: opacity 0.2s ease;
+}
+
+.references-container .card ul li a:hover {
+  opacity: 0.7;
+}

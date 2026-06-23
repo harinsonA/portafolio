@@ -1,0 +1,9 @@
+export { PERFIL } from './perfil';
+export { RESUMEN } from './resumen';
+export { EXPERIENCIA_LABORAL } from './experiencia';
+export { EDUCACION } from './educacion';
+export { PROYECTOS } from './proyectos';
+export { HABILIDADES } from './habilidades';
+export { CERTIFICADOS } from './certificados';
+export { REDES } from './redes';
+export { REFERENCIAS } from './referencias';
