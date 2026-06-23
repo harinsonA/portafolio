@@ -4,6 +4,7 @@ import { MdOutlineEmail, MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import Habilidades from './Habilidades';
 import Redes from './Redes';
+import { PERFIL, RESUMEN } from '../store';
 
 
 const Aside = () => (
@@ -14,8 +15,8 @@ const Aside = () => (
           <img src={harinsonArellanFoto} alt="Foto de Harinson" />
         </div>
         <div className='title'>
-          <h1>Harinson José Arellan Itanare</h1>
-          <p>Ingeniero de Sistemas / Desarrollador Frontend</p>
+          <h1>{PERFIL.nombre}</h1>
+          <p>{PERFIL.titulo}</p>
         </div>
       </div>
       <div className='body'>
@@ -23,23 +24,21 @@ const Aside = () => (
           <ul>
             <li>
               <MdLocationOn  size='1.8rem' color='#0083B0' />
-              <span>Santiago de Chile, Chile</span>
+              <span>{PERFIL.ubicacion}</span>
             </li>
             <li>
               <MdOutlineEmail size='1.7rem' color='#C5221F' />
-              <span>harrinson.arellan@gmail.com</span>
+              <span>{PERFIL.email}</span>
             </li>
             <li>
               <FaPhoneAlt size='1.5rem' />
-              <span>+56 9 4941 6912</span>
+              <span>{PERFIL.telefono}</span>
             </li>
           </ul>
         </div>
         <Redes />
         <div className='resumen'>
-          <p>
-            ¡Hola! Me llamo Harinson Arellan, soy Ingeniero de Sistemas con más de 4 años de experiencia desarrollando aplicaciones web ocupando diferentes tecnologias como HTML, CSS, SASS, Bootstrap, JavaScript, React, Nextjs, Redux, Python, Django, REST APIs, SQL, entre otros. Poseo sólidos conocimientos en Responsive Web Design, habilidades destacadas en resolución de problemas, depuración y optimización de código. Siempre motivado a seguir creciendo y a expandir mis conocimientos.
-          </p>
+          <p>{RESUMEN}</p>
         </div>
       </div>
     </section>
