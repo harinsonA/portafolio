@@ -18,7 +18,22 @@
   --sans:   'Inter', system-ui, sans-serif;
 }
 
-*, *::after, *::before { margin: 0; padding: 0; box-sizing: border-box; }
+*, *::after, *::before {
+  margin: 0; padding: 0; box-sizing: border-box;
+  -webkit-user-select: none; /* Safari / Chrome */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* Edge antiguo */
+  user-select: none;         /* Estándar */
+  -webkit-touch-callout: none; /* iOS: evita el menú al mantener pulsado */
+}
+
+/* Mantener seleccionables y editables los campos de formulario */
+input, textarea, select, [contenteditable="true"] {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; }
 
